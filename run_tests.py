@@ -5,7 +5,7 @@ import unittest
 from src.convert import kilometers_to_miles, miles_to_kilometers, \
 years_to_minutes, minutes_to_years
 
-class TestConvert(unittest.TestCase)
+class TestConvert(unittest.TestCase):
     def test_km_to_miles(self):
         acutal = kilometers_to_miles(1)
         expected = 0.621 # general knowledge
