@@ -18,10 +18,10 @@ class TestConvert(unittest.TestCase):
       
     def test_years_to_minutes(self):
         actual = 525600 #general knowledge
-        self.assertEqual(actual, years_to_minutes(1)
+        self.assertEqual(actual, years_to_minutes(1))
         
     def test_minutes_to_years(self):
-        self.assertEqua(1, minutes_to_years(525600)
+        self.assertEqual(1, minutes_to_years(525600))
 
 #######################################################33
 
