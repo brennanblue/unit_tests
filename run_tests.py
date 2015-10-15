@@ -3,7 +3,7 @@
 import unittest
 
 from src.convert import kilometers_to_miles, miles_to_kilometers, \
-years_to_minutes, minutes_to_years
+years_to_minutes, minutes_to_years, inches_to_cm, cm_to_inches
 
 class TestConvert(unittest.TestCase):
     def test_km_to_miles(self):
