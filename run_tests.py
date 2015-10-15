@@ -23,7 +23,13 @@ class TestConvert(unittest.TestCase):
     def test_minutes_to_years(self):
         self.assertEqual(1, minutes_to_years(525600))
 
-#######################################################33
+    def test_inches_to_cm(self):
+        self.assertEqual(2.54, inches_to_cm(1))
+        
+    def test_cm_to_inches(self):
+        self.assertAlmostEqual(1, cm_to_inches(1), delta = 0.05)
+
+#######################################################
 
 if __name__ == '__main__':
     unittest.main()
