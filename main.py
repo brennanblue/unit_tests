@@ -24,7 +24,7 @@ to_minutes = years_to_minutes(args.value)
 print("{0} years is {1} minutes".format(args.value, to_minutes))
 
 #minutes -> years
-to_years = minutes_to_years(ags.value)
+to_years = minutes_to_years(args.value)
 print("{0} minutes is {1} years".format(args.value, to_years))
 
 #inches -> cm 
