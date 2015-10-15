@@ -8,7 +8,7 @@ years_to_minutes, minutes_to_years, inches_to_cm, cm_to_inches
 #parse args
 parse = argparse.ArgumentParser()
 parse.add_argument('value', type=float, help="Provide the number to be converted")
-args.parse.parse_args()
+args = parse.parse_args()
 
 #perform conversions 
 #km -> miles
