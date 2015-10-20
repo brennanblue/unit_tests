@@ -12,7 +12,7 @@ class TestConvert(unittest.TestCase):
         #self.assertAlmostEqual(acutal, expected, delta = 0.01)
         
     def test_miles_to_km(self):
-        actual = mile_to_kilometers(1)
+        actual = miles_to_kilometers(1)
         expected = 1.609 # general knowledge
         self.assertAlmostEqual(actual, expected, delta = 0.01)
       
